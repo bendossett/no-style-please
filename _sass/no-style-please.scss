@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Routed Gothic";
-  src: url("../assets/fonts/routed-gothic.ttf");
+  src: url("../fonts/routed-gothic.ttf");
 }
 
 body[a="dark"] { @include dark-appearance; }
