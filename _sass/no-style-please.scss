@@ -8,6 +8,11 @@
   }
 }
 
+@font-face {
+  font-family: "Routed Gothic";
+  src: url("../assets/fonts/routed-gothic.ttf");
+}
+
 body[a="dark"] { @include dark-appearance; }
 
 
@@ -25,7 +30,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: monospace;
+  font-family: "Routed Gothic", monospace;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
